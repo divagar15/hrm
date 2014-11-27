@@ -1,0 +1,177 @@
+/*----------------------------
+    The file upload form
+-----------------------------*/
+/*.uploadfrm{
+    font-family:'PT Sans Narrow', sans-serif;
+    background-color:#373a3d;
+
+    background-image:-webkit-linear-gradient(top, #373a3d, #313437);
+    background-image:-moz-linear-gradient(top, #373a3d, #313437);
+    background-image:linear-gradient(top, #373a3d, #313437);
+
+    width:250px;
+    padding:30px;
+    border-radius:3px;
+
+    margin:200px auto 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#drop{
+    background-color: #2E3134;
+    padding: 40px 50px;
+    margin-bottom: 30px;
+    border: 20px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border-image: url('../img/border-image.png') 25 repeat;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size:16px;
+    font-weight:bold;
+    color:#7f858a;
+}
+
+#drop a{
+    background-color:#007a96;
+    padding:12px 26px;
+    color:#fff;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:12px;
+    line-height:1;
+}
+
+#drop a:hover{
+    background-color:#0986a3;
+}
+
+#drop input{
+    display:none;
+}
+*/
+.disp-lable{font-weight: lighter !important; margin-top: 7px; }
+.cheque-info{display: none;}
+.boxbg{background-color:#e5e5e5; border-color:1px solid #CBCBCB; padding-top:10px;}
+.leadsteps{list-style-type: none;}
+.leadsteps li{border:1px solid #000; padding:10px; margin: 2px; background-color: #ccc; font-weight: 600;}
+.leadsteps li:.active{background-color:#00ACEC;color:#fff;}
+.uploadlist{
+    list-style:none;
+    margin:0 -30px;
+    list-style-type: none;
+    //border-top:1px solid #2b2e31;
+    //border-bottom:1px solid #3d4043;
+}
+
+.uploadlist li{
+
+    /*background-color:#333639;
+    
+    background-image:-webkit-linear-gradient(top, #333639, #303335);
+    background-image:-moz-linear-gradient(top, #333639, #303335);
+    background-image:linear-gradient(top, #333639, #303335);
+ */
+    //border-top:1px solid #3d4043;
+    //border-bottom:1px solid #2b2e31;
+    padding:0px 15px 15px 0px; 
+    /*padding:7px 5px 7px 0px;*/
+    height: 32px;
+	
+
+    position: relative;
+}
+
+/*.uploadfrm ul li input{
+    display: none;
+}
+*/
+.uploadlist li p{
+    width: 144px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #666;
+    font-size: 12px;
+    /*font-weight: bold;*/
+    position: absolute;
+    /*top: 20px;*/
+    left: 64px;
+    /*margin-top:-13px !important;*/
+}
+
+.uploadlist li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+}
+
+.uploadlist li canvas{
+    top: 9px;
+    left: 32px;
+    position: absolute;
+}
+
+.uploadlist li span{
+    width: 15px;
+    height: 12px;
+    background: url('../images/icons.png') no-repeat;
+    position: absolute;
+    top: 14px;
+    right: 33px;
+    cursor:pointer;
+}
+
+.uploadlist li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+.uploadlist li.error p{
+    color:red;
+}
+
+.showlist li{
+    padding:0px 15px 15px 0px; 
+    height: 32px;
+	
+
+    position: relative;
+}
+.showlist li p{color:#666 !important;}
+.span-sym{
+    width: 15px;
+    height: 12px;
+    background: url('../images/icons.png') no-repeat 0px -13px;
+    position: absolute;
+    top: 5px;
+    right: 33px;
+    cursor:pointer;
+}
+
+/*----------------------------
+    The file upload end form
+-----------------------------*/
+
+.list-btn{list-style-type: none; margin-left:-25px;}
+.list-btn li{float:left; margin: 0px 2px 2px 2px; }
+.grid-table{border:0px solid;}
+.grid-table th{background-color:#000; color:#FFF;text-transform:uppercase; font-weight:lighter; font-size:12px; padding:5px 5px 5px 9px; text-align:left;}
+.grid-table td{font-size:12px;padding:5px 5px 5px 9px;border:1px solid;}
+.topic-tab{background-color: #00ACEC; color:#fff; text-align:center;font-size:16px;}
+.dash-tab{margin-top:10px; text-align:center;font-size:13px;}
+.dash-tab th{ background-color: #00acec; color: #fff; text-align:center;}
+.bio-header{ margin-left: 20px; background: url("../images/bio_data_header.png"); background-repeat: repeat-y; width: 100% !important; }
+.bio-header h4{color:#FFF !important;}
+.bio-view .form-group{margin-bottom: 5px;}
+.amount-align { text-align: right; }
+label.error { color:#f00; font-weight: lighter; }
+input.error { border:1px solid #f00; }
+label.account { margin-bottom: 5px !important; }
+.no-padding { padding: 0 !important; }
+.no-margin { margin: 0 !important; }
+h4.payment_column { margin-left: 15px;  }
+.panel-footer .footer-space { margin-left: 20px; }
+.notify-text{padding-left: 0px; padding-right: 0px;height:61px;border:1px solid #ccc; margin-bottom: 2px;}

@@ -1,0 +1,36 @@
+body{margin:0px;}
+div{border:0px solid #000}
+#container{
+font-family:Arial, Helvetica, sans-serif;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+font-size:9px;
+}
+span{font-size:12px;margin:2px;}
+p{font-size:10px;}
+.logo{margin-left:10px;margin-top:40px;}
+#header{height:97px; width:100%;}
+.row{float:left; width:100%;}
+.col-sp6{float:left; width:100%; height:95px;}
+.col-sp6-rx{float:left; width:100%; height:80px;padding-top:20px;}
+.col-sp6-rx .invoice{line-height:5px; margin-left:70px;}
+.rowbg{background-color:#00b0f0;padding:2px 0px 2px 0px; }
+.address{height:40px;padding-top:6px; }
+.address span{font-size:7px; font-weight:600;margin-top:0px; margin-left:160px;}
+.address p{font-size:8px;line-height:5px;margin-left:160px;}
+.span-high{color:#FFF;}
+.span-high_dk{font-weight:bold;margin-left:51px; }
+.content-wrapper{height:840px;}
+.grid-table{border:0px solid;}
+.grid-table th{background-color:#000; color:#FFF;text-transform:uppercase; font-weight:lighter; font-size:10px; padding:5px 5px 5px 9px; text-align:left;}
+.grid-table td{font-size:10px;padding:5px 5px 5px 9px;border:1px solid;}
+.sm-table{border:0px solid;}
+.sm-table th{background-color:#000; color:#FFF;text-transform:uppercase; font-weight:lighter; font-size:10px; padding:5px 5px 5px 9px; text-align:left;}
+.sm-table td{font-size:10px;padding:5px 5px 5px 9px;border:0px solid;}
+
+.para{font-size:12px; margin-left:46px; margin-top:30px;}
+#footer{clear:both; height:25px;background-color:#00b0f0;color:#FFF; text-align:center; bottom:0px; width:100%}
+.blackstrip{height:2px;background-color:#000;margin-bottom:0px; }
+#footer .blackrow{height:5px;background-color:#000; }
+#footer .foottext{padding:8px;}
